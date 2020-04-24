@@ -18,8 +18,12 @@ else
     roster[grade]
   end
 def sort
-  binding.pry
-  roster[grade].sort!
+  #binding.pry
+  sorted = {}
+  roster.select do |grade, student|
+    sorted[grade] =students.sorted
+  end
+  sorted
 end
 
 
