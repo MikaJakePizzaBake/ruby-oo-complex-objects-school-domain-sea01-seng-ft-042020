@@ -3,8 +3,8 @@ class School
   def initialize (roster)
     @roster = []
   end
-  def add_student
+  def add_student (roster, student)
     @roster << roster
   end
-  
+
 end
