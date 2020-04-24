@@ -6,7 +6,6 @@ class School
   end
   def add_student (student, grade)
 #binding.pry
-if
     roster[grade] = []
     roster[grade] << student
 
