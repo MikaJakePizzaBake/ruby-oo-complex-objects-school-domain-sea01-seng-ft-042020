@@ -3,13 +3,12 @@ class School
   attr_accessor :roster, :grade, :student
   def initialize (roster)
     @roster = {}
-    @grade = grade
-
   end
   def add_student (student, grade)
 #binding.pry
-    roster[:grade] = []
-    roster[:grade] << student
+if
+    roster[grade] = []
+    roster[grade] << student
 
   end
 
