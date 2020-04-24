@@ -15,7 +15,7 @@ else
   end
   end
   def grade (grade)
-    @student
+    roster[grade]
   end
 
 
