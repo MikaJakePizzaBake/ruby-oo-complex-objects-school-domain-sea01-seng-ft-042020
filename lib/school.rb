@@ -21,7 +21,7 @@ def sort
   #binding.pry
   sorted = {}
   roster.select do |grade, student|
-    sorted[grade] =students.sorted
+    sorted[grade] =student.sorted
   end
   sorted
 end
