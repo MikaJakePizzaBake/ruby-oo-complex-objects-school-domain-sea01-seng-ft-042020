@@ -6,13 +6,9 @@ class School
   end
   def add_student (student, grade)
 #binding.pry
-if
-    roster[grade]
+    roster[grade] = []
     roster[grade] << student
-  else
-    roser[grade] = []
-    roster[grade] << student
-  end
+
 
   end
 
