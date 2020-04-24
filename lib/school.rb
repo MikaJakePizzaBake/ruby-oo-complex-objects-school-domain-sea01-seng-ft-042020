@@ -6,7 +6,7 @@ class School
     @grade = grade
   end
   def add_student (student, grade)
-binding.pry
+#binding.pry
     roster[:grade] = student
     roster[:grade] << student
     @roster
