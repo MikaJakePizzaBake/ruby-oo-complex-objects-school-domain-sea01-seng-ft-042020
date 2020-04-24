@@ -5,8 +5,7 @@ class School
     @roster = {}
   end
   def add_student (student, grade)
-    binding.pry
-    @roster[:grade] << @student
+
   end
 
 end
