@@ -8,6 +8,7 @@ class School
 
     roster[:grade] = student
     roster[:grade] << student
+    @roster
 
   end
 
