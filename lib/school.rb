@@ -18,6 +18,7 @@ else
     roster[grade]
   end
 def sort
+  binding.pry
   roster[grade].sort!
 end
 
