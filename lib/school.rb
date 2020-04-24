@@ -14,8 +14,8 @@ else
     roster[grade] << student
   end
   end
-  def grade (grade)
-    @grade
+  def grade (student)
+    @student
   end
 
 
