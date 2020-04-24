@@ -13,8 +13,11 @@ else
     roster[grade] = []
     roster[grade] << student
   end
-
-
   end
+  def grade (student)
+    @grade
+  end
+  
+
 
 end
