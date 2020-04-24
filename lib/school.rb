@@ -2,7 +2,7 @@ require 'pry'
 class School
   attr_accessor :roster
   def initialize (roster)
-    @roster = []
+    @roster = {}
   end
   def add_student (student, grade)
     binding.pry
